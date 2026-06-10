@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño Web Responsivo</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <!-- INICIO FONDO PRINCIPAL -->
+    <div id="wdm-container">
+
+        <!-- INICIO HEADER -->
+        <header id="wdm-header">
+
+            <h1 class="wdm-title">Diseño Web Responsivo</h1>
+
+            <section class="wdm-header-content">
+
+                <div class="wdm-header-img">
+                    <img src="assets/img/WEBResponsivo.jpg" alt="Diseño Web Responsivo">
+                </div>
+
+                <div class="wdm-header-text">
+                    <h2>Diseño Web Responsivo</h2>
+
+                    <p>
+                        El Diseño Web Responsivo o Diseño Web Adaptativo consiste en permitir que la visualización de los sitios se pueda adaptar dependiendo de los dispositivos esta necesidad al inicio de los 2000 principalmente con la introducción de los celulares aunque en un primer momento se intentó generar diferente tipos de sitio webs para cada dispositivo por medio de subdominios las mismas no cumplieron con lo esperado, por lo que se empezó a introducir el Diseño flexible, Elástico y luego pasamos al adaptación en la W3C World Wide Web Consortium lo cual llevo al uso de técnicas fluidos o líquidos lo cual no consistía unicamente en adaptar a la resolución de la pantalla si no también permite la expansión o reducción del contenido con el fin de adaptarse a la pantalla gráfica.
+                    </p>
+
+                    <p>
+                        Luego de esto se introdujo el termino Diseño Web Responsivo y gracias a especificaciones como flex-box y grid lo cual permite generar diseños que se adapte de forma versátil sin necesidad de crear cálculos ya que los mismos se realizan de manera automática gracias a instrucciones programadas, En la actualidad es sumamente importante ya que permite una experiencia de usuario más amena principalmente debido a la alta demanda de dispositivos móviles como tabletas y celulares, y otra ventaja es que estas técnicas permitirán una adaptabilidad incluso a dispositivos que aun no se han creado, otra ventaja competitiva de estos sitios es que los buscadores dan prioridad a los sitio adaptados con el fin de mejorar la experiencia de usuario.
+                    </p>
+
+                    <p>
+                        Debido a lo anterior mencionado, el utilizar estas técnicas no solo garantiza una mejor experiencia al usuario, si no ademas da una ventaja competitiva de manera sistémica, ademas de que un sitio moderno también afecta de manera voluntaria o involuntaria la perspectiva del cliente/usuario a una empresa, centro de estudios o proyectos en general, por eso hoy en día es de suma importancia tomar en cuenta la flexibilidad del contenido, el uso de rejillas fluidas, imágenes adaptables, el uso de queries en CSS con el fin de adaptar el estilo al tamaño de la pantalla, y todo esto sin dejar de lado la practicidad y claridad, ya que aunque un sitio web sea adaptable, si el mismo es diseñado de una manera complicada la Experiencia de usuario no será la mejor.
+                    </p>
+                </div>
+
+            </section>
+
+            <nav class="wdm-nav">
+                <ul class="wdm-list">
+                    <li class="wdm-item"><a href="#viewport">Viewport</a></li>
+                    <li class="wdm-item"><a href="#mediaqueries">Media Queries</a></li>
+                    <li class="wdm-item"><a href="#galeria">Galería</a></li>
+                    <li class="wdm-item"><a href="#footer">Conceptos</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <!-- FIN HEADER -->
+
+
+        <!-- INICIO CONTENIDO CENTRAL -->
+        <section id="wdm-content-area">
+
+            <!-- INICIO ASIDE -->
+            <aside id="viewport">
+
+                <h2>Viewport</h2>
+
+                <p>
+                    El viewport es un concepto fundamental en el diseño web responsivo, el cual consiste el área visible de una página web dentro de la pantalla de un dispositivo a lo cual se le llama Visual port, de esta manera podemos ver unicamente la sección requeridad a un tama;a adecuado al contrario de lo que se hacia anteriormente ya que al adaptar todo la pagina al dispositivo provocaba que la misma se visualizara muy peque;a con textos ilegibles e imagnes que no se dapatanban lo cual no era una buena experiencia.
+                </p>
+
+                <p>
+                    Para configurar el mismo necesitamos una étiqueta meta viewport por ejemplo:
+                </p>
+
+                <code>
+                    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+                </code>
+
+                <p>
+                    Se coloca dentro del &lt;head&gt; del documento y permite ajustar el ancho, la escala y el zoom de la página para mejorar el diseño responsivo y la experiencia del usuario. Sus atributos más importantes son width=device-width, que adapta el sitio al ancho real de la pantalla, e initial-scale=1, que define el nivel de zoom inicial. También existen otros atributos como minimum-scale, maximum-scale y user-scalable, los cuales permiten controlar los límites del zoom y si el usuario puede ampliar o reducir la página. Gracias al viewport, los sitios web modernos pueden adaptarse correctamente a distintos tamaños de pantalla y ofrecer una navegación más cómoda y accesible.
+                </p>
+
+            </aside>
+            <!-- FIN ASIDE -->
+
+
+            <!-- INICIO MAIN -->
+            <main id="mediaqueries">
+
+                <h2>CSS3 Media Queries</h2>
+
+                <article class="wdm-article">
+                    <h3>Importancia</h3>
+
+                    <p>
+                        Las CSS3 Media Queries son una herramienta fundamental del diseño web responsivo, ya que permiten aplicar diferentes estilos CSS según las características del dispositivo, como el ancho de pantalla, la resolución o la orientación. Gracias a las media queries, un sitio web puede adaptar automáticamente su apariencia para ofrecer una mejor experiencia tanto en computadoras como en tabletas y teléfonos móviles. Estas reglas se utilizan mediante la instrucción @media, la cual permite definir condiciones específicas para cambiar el diseño según el tamaño del viewport.
+                    </p>
+
+                   
+                </article>
+
+                <article class="wdm-article">
+                    <h3>Usos</h3>
+
+                     <p>
+                        Las media queries se utilizan frecuentemente para modificar tamaños de texto, reorganizar columnas, cambiar colores o ajustar menús de navegación cuando la pantalla es más pequeña. Por ejemplo, una media query como @media (max-width: 768px) permite aplicar estilos especiales para dispositivos móviles, haciendo que los elementos se acomoden verticalmente y mejorando la legibilidad y navegación táctil.
+                    </p>
+
+                    <p>
+                        En la práctica, las media queries son esenciales para crear diseños web modernos y adaptables, ya que permiten desarrollar una sola página capaz de funcionar correctamente en distintos dispositivos sin necesidad de crear versiones separadas del sitio. Esto mejora la accesibilidad, la experiencia del usuario y el posicionamiento en motores de búsqueda como Google, que favorecen los sitios optimizados para móviles.
+                    </p>
+
+                    <p>
+                        Ademas En CSS 3: Media queries se definen también las características de medios color, color-index, monochrome, scan y grid, que se mantienen en Media Queries Level 4, sin embargo otras características tales como device-width, device-height y device-aspect-ratio en CSS 4 se consideran obsoletas.
+                    </p>
+                </article>
+
+            </main>
+            <!-- FIN MAIN -->
+
+        </section>
+        <!-- FIN CONTENIDO CENTRAL -->
+
+
+        <!-- INICIO GALERÍA -->
+        <section id="galeria">
+
+            <h2 class="wdm-title">Evolución del Diseño Web</h2>
+
+            <ul class="galeria-list">
+
+                <li class="galeria-item">
+                    <img src="assets/img/ebayold.jpg" alt="Diseño antiguo de eBay">
+                    <b>Diseño antiguo</b>
+                    <p>Sitio web con estructura fija y gran cantidad de enlaces visibles.</p>
+                </li>
+
+                <li class="galeria-item">
+                    <img src="assets/img/EbayActual.jpg" alt="Diseño actual de eBay">
+                    <b>Diseño actual</b>
+                    <p>Interfaz más limpia, visual y organizada para mejorar la experiencia del usuario.</p>
+                </li>
+
+                <li class="galeria-item">
+                    <img src="assets/img/EbayCel.jpg" alt="Diseño móvil de eBay">
+                    <b>Diseño móvil</b>
+                    <p>Ejemplo de adaptación responsiva para pantallas pequeñas como celulares.</p>
+                </li>
+
+            </ul>
+
+        </section>
+        <!-- FIN GALERÍA -->
+
+    </div>
+    <!-- FIN FONDO PRINCIPAL -->
+
+
+    <!-- INICIO FOOTER -->
+    <footer id="footer">
+
+        <h2>Conceptos Importantes</h2>
+
+        <ul class="card-list">
+
+            <li class="card-item">
+                <h3>Flexbox</h3>
+                <p>Flexbox permite organizar elementos de manera flexible y adaptable dependiendo del tamaño de la pantalla.</p>
+            </li>
+
+            <li class="card-item">
+                <h3>Grid</h3>
+                <p>CSS Grid facilita la creación de estructuras complejas responsivas sin cálculos manuales.</p>
+            </li>
+
+            <li class="card-item">
+                <h3>Viewport</h3>
+                <p>El viewport controla la visualización y adaptación del contenido en distintos dispositivos.</p>
+            </li>
+
+            <li class="card-item">
+                <h3>Media Queries</h3>
+                <p>Las media queries permiten modificar estilos según el tamaño o características del dispositivo.</p>
+            </li>
+
+        </ul>
+
+    </footer>
+    <!-- FIN FOOTER -->
+
+</body>
+
+</html>
