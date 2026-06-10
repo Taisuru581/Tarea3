@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diseño Web Responsivo</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- INICIO FONDO PRINCIPAL -->
     <div id="wdm-container">
@@ -29,15 +30,38 @@
                     <h2>Diseño Web Responsivo</h2>
 
                     <p>
-                        El Diseño Web Responsivo o Diseño Web Adaptativo consiste en permitir que la visualización de los sitios se pueda adaptar dependiendo de los dispositivos esta necesidad al inicio de los 2000 principalmente con la introducción de los celulares aunque en un primer momento se intentó generar diferente tipos de sitio webs para cada dispositivo por medio de subdominios las mismas no cumplieron con lo esperado, por lo que se empezó a introducir el Diseño flexible, Elástico y luego pasamos al adaptación en la W3C World Wide Web Consortium lo cual llevo al uso de técnicas fluidos o líquidos lo cual no consistía unicamente en adaptar a la resolución de la pantalla si no también permite la expansión o reducción del contenido con el fin de adaptarse a la pantalla gráfica.
+                        El Diseño Web Responsivo o Diseño Web Adaptativo consiste en permitir que la visualización de
+                        los sitios se pueda adaptar dependiendo de los dispositivos esta necesidad al inicio de los 2000
+                        principalmente con la introducción de los celulares aunque en un primer momento se intentó
+                        generar diferente tipos de sitio webs para cada dispositivo por medio de subdominios las mismas
+                        no cumplieron con lo esperado, por lo que se empezó a introducir el Diseño flexible, Elástico y
+                        luego pasamos al adaptación en la W3C World Wide Web Consortium lo cual llevo al uso de técnicas
+                        fluidos o líquidos lo cual no consistía unicamente en adaptar a la resolución de la pantalla si
+                        no también permite la expansión o reducción del contenido con el fin de adaptarse a la pantalla
+                        gráfica.
                     </p>
 
                     <p>
-                        Luego de esto se introdujo el termino Diseño Web Responsivo y gracias a especificaciones como flex-box y grid lo cual permite generar diseños que se adapte de forma versátil sin necesidad de crear cálculos ya que los mismos se realizan de manera automática gracias a instrucciones programadas, En la actualidad es sumamente importante ya que permite una experiencia de usuario más amena principalmente debido a la alta demanda de dispositivos móviles como tabletas y celulares, y otra ventaja es que estas técnicas permitirán una adaptabilidad incluso a dispositivos que aun no se han creado, otra ventaja competitiva de estos sitios es que los buscadores dan prioridad a los sitio adaptados con el fin de mejorar la experiencia de usuario.
+                        Luego de esto se introdujo el termino Diseño Web Responsivo y gracias a especificaciones como
+                        flex-box y grid lo cual permite generar diseños que se adapte de forma versátil sin necesidad de
+                        crear cálculos ya que los mismos se realizan de manera automática gracias a instrucciones
+                        programadas, En la actualidad es sumamente importante ya que permite una experiencia de usuario
+                        más amena principalmente debido a la alta demanda de dispositivos móviles como tabletas y
+                        celulares, y otra ventaja es que estas técnicas permitirán una adaptabilidad incluso a
+                        dispositivos que aun no se han creado, otra ventaja competitiva de estos sitios es que los
+                        buscadores dan prioridad a los sitio adaptados con el fin de mejorar la experiencia de usuario.
                     </p>
 
                     <p>
-                        Debido a lo anterior mencionado, el utilizar estas técnicas no solo garantiza una mejor experiencia al usuario, si no ademas da una ventaja competitiva de manera sistémica, ademas de que un sitio moderno también afecta de manera voluntaria o involuntaria la perspectiva del cliente/usuario a una empresa, centro de estudios o proyectos en general, por eso hoy en día es de suma importancia tomar en cuenta la flexibilidad del contenido, el uso de rejillas fluidas, imágenes adaptables, el uso de queries en CSS con el fin de adaptar el estilo al tamaño de la pantalla, y todo esto sin dejar de lado la practicidad y claridad, ya que aunque un sitio web sea adaptable, si el mismo es diseñado de una manera complicada la Experiencia de usuario no será la mejor.
+                        Debido a lo anterior mencionado, el utilizar estas técnicas no solo garantiza una mejor
+                        experiencia al usuario, si no ademas da una ventaja competitiva de manera sistémica, ademas de
+                        que un sitio moderno también afecta de manera voluntaria o involuntaria la perspectiva del
+                        cliente/usuario a una empresa, centro de estudios o proyectos en general, por eso hoy en día es
+                        de suma importancia tomar en cuenta la flexibilidad del contenido, el uso de rejillas fluidas,
+                        imágenes adaptables, el uso de queries en CSS con el fin de adaptar el estilo al tamaño de la
+                        pantalla, y todo esto sin dejar de lado la practicidad y claridad, ya que aunque un sitio web
+                        sea adaptable, si el mismo es diseñado de una manera complicada la Experiencia de usuario no
+                        será la mejor.
                     </p>
                 </div>
 
@@ -65,7 +89,12 @@
                 <h2>Viewport</h2>
 
                 <p>
-                    El viewport es un concepto fundamental en el diseño web responsivo, el cual consiste el área visible de una página web dentro de la pantalla de un dispositivo a lo cual se le llama Visual port, de esta manera podemos ver unicamente la sección requeridad a un tama;a adecuado al contrario de lo que se hacia anteriormente ya que al adaptar todo la pagina al dispositivo provocaba que la misma se visualizara muy peque;a con textos ilegibles e imagnes que no se dapatanban lo cual no era una buena experiencia.
+                    El viewport es un concepto fundamental en el diseño web responsivo, el cual consiste el área visible
+                    de una página web dentro de la pantalla de un dispositivo a lo cual se le llama Visual port, de esta
+                    manera podemos ver unicamente la sección requeridad a un tama;a adecuado al contrario de lo que se
+                    hacia anteriormente ya que al adaptar todo la pagina al dispositivo provocaba que la misma se
+                    visualizara muy peque;a con textos ilegibles e imagnes que no se dapatanban lo cual no era una buena
+                    experiencia.
                 </p>
 
                 <p>
@@ -77,7 +106,14 @@
                 </code>
 
                 <p>
-                    Se coloca dentro del &lt;head&gt; del documento y permite ajustar el ancho, la escala y el zoom de la página para mejorar el diseño responsivo y la experiencia del usuario. Sus atributos más importantes son width=device-width, que adapta el sitio al ancho real de la pantalla, e initial-scale=1, que define el nivel de zoom inicial. También existen otros atributos como minimum-scale, maximum-scale y user-scalable, los cuales permiten controlar los límites del zoom y si el usuario puede ampliar o reducir la página. Gracias al viewport, los sitios web modernos pueden adaptarse correctamente a distintos tamaños de pantalla y ofrecer una navegación más cómoda y accesible.
+                    Se coloca dentro del &lt;head&gt; del documento y permite ajustar el ancho, la escala y el zoom de
+                    la página para mejorar el diseño responsivo y la experiencia del usuario. Sus atributos más
+                    importantes son width=device-width, que adapta el sitio al ancho real de la pantalla, e
+                    initial-scale=1, que define el nivel de zoom inicial. También existen otros atributos como
+                    minimum-scale, maximum-scale y user-scalable, los cuales permiten controlar los límites del zoom y
+                    si el usuario puede ampliar o reducir la página. Gracias al viewport, los sitios web modernos pueden
+                    adaptarse correctamente a distintos tamaños de pantalla y ofrecer una navegación más cómoda y
+                    accesible.
                 </p>
 
             </aside>
@@ -93,25 +129,42 @@
                     <h3>Importancia</h3>
 
                     <p>
-                        Las CSS3 Media Queries son una herramienta fundamental del diseño web responsivo, ya que permiten aplicar diferentes estilos CSS según las características del dispositivo, como el ancho de pantalla, la resolución o la orientación. Gracias a las media queries, un sitio web puede adaptar automáticamente su apariencia para ofrecer una mejor experiencia tanto en computadoras como en tabletas y teléfonos móviles. Estas reglas se utilizan mediante la instrucción @media, la cual permite definir condiciones específicas para cambiar el diseño según el tamaño del viewport.
+                        Las CSS3 Media Queries son una herramienta fundamental del diseño web responsivo, ya que
+                        permiten aplicar diferentes estilos CSS según las características del dispositivo, como el ancho
+                        de pantalla, la resolución o la orientación. Gracias a las media queries, un sitio web puede
+                        adaptar automáticamente su apariencia para ofrecer una mejor experiencia tanto en computadoras
+                        como en tabletas y teléfonos móviles. Estas reglas se utilizan mediante la instrucción @media,
+                        la cual permite definir condiciones específicas para cambiar el diseño según el tamaño del
+                        viewport.
                     </p>
 
-                   
+
                 </article>
 
                 <article class="wdm-article">
                     <h3>Usos</h3>
 
-                     <p>
-                        Las media queries se utilizan frecuentemente para modificar tamaños de texto, reorganizar columnas, cambiar colores o ajustar menús de navegación cuando la pantalla es más pequeña. Por ejemplo, una media query como @media (max-width: 768px) permite aplicar estilos especiales para dispositivos móviles, haciendo que los elementos se acomoden verticalmente y mejorando la legibilidad y navegación táctil.
+                    <p>
+                        Las media queries se utilizan frecuentemente para modificar tamaños de texto, reorganizar
+                        columnas, cambiar colores o ajustar menús de navegación cuando la pantalla es más pequeña. Por
+                        ejemplo, una media query como @media (max-width: 768px) permite aplicar estilos especiales para
+                        dispositivos móviles, haciendo que los elementos se acomoden verticalmente y mejorando la
+                        legibilidad y navegación táctil.
                     </p>
 
                     <p>
-                        En la práctica, las media queries son esenciales para crear diseños web modernos y adaptables, ya que permiten desarrollar una sola página capaz de funcionar correctamente en distintos dispositivos sin necesidad de crear versiones separadas del sitio. Esto mejora la accesibilidad, la experiencia del usuario y el posicionamiento en motores de búsqueda como Google, que favorecen los sitios optimizados para móviles.
+                        En la práctica, las media queries son esenciales para crear diseños web modernos y adaptables,
+                        ya que permiten desarrollar una sola página capaz de funcionar correctamente en distintos
+                        dispositivos sin necesidad de crear versiones separadas del sitio. Esto mejora la accesibilidad,
+                        la experiencia del usuario y el posicionamiento en motores de búsqueda como Google, que
+                        favorecen los sitios optimizados para móviles.
                     </p>
 
                     <p>
-                        Ademas En CSS 3: Media queries se definen también las características de medios color, color-index, monochrome, scan y grid, que se mantienen en Media Queries Level 4, sin embargo otras características tales como device-width, device-height y device-aspect-ratio en CSS 4 se consideran obsoletas.
+                        Ademas En CSS 3: Media queries se definen también las características de medios color,
+                        color-index, monochrome, scan y grid, que se mantienen en Media Queries Level 4, sin embargo
+                        otras características tales como device-width, device-height y device-aspect-ratio en CSS 4 se
+                        consideran obsoletas.
                     </p>
                 </article>
 
@@ -154,7 +207,215 @@
 
     </div>
     <!-- FIN FONDO PRINCIPAL -->
+    <!-- INICIO BOOTSTRAP 5 -->
+    <section id="bootstrap5">
 
+        <h2 class="wdm-title">Bootstrap 5</h2>
+
+        <!-- NAVBAR BOOTSTRAP -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+
+            <div class="container-fluid">
+
+                <a class="navbar-brand" href="#">
+                    Bootstrap 5
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#bootstrapNavbar">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="collapse navbar-collapse" id="bootstrapNavbar">
+
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#containers">
+                                Containers
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#grid">
+                                Grid
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#flex">
+                                Flex
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#carousel-control">
+                                Carousel
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+        <article class="bootstrap-content">
+
+            <h3>Bootstrap 5</h3>
+
+            <p>
+                Bootstrap 5 es un framework de desarrollo web front-end gratuito que permite crear sitios web modernos,
+                responsivos y adaptables de una manera más rápida y sencilla. Actualmente es uno de los frameworks más
+                utilizados en el desarrollo web debido a su facilidad de uso y gran cantidad de componentes
+                predefinidos.
+            </p>
+
+            <p>
+                Bootstrap 5 utiliza principalmente HTML, CSS y JavaScript para proporcionar estilos, estructuras y
+                componentes dinámicos listos para usar. Su principal objetivo es facilitar el diseño responsivo,
+                permitiendo que los sitios web se adapten automáticamente a diferentes tamaños de pantalla como
+                computadoras, tabletas y teléfonos móviles.
+            </p>
+
+        </article>
+
+        <div class="container mt-4" id="containers">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <h3>Containers</h3>
+
+                    <img src="assets/img/Containers.jpg" class="img-fluid" alt="Containers">
+
+                    <p>
+                        Los Containers son contenedores utilizados para organizar y centrar el contenido del sitio web.
+                        Bootstrap incluye diferentes tipos de contenedores que permiten controlar el ancho del contenido
+                        dependiendo del tamaño de la pantalla tales como Fixed(fijo) y fluid(Fluido) container.
+                    </p>
+
+                </div>
+
+                <div class="col-md-6" id="grid">
+
+                    <h3>Grid System</h3>
+
+                    <img src="assets/img/Grid.jpg" class="img-fluid" alt="Grid">
+
+                    <p>
+                        Grid System o sistema de cuadrícula es un componente que permite dividir la página en 12
+                        columnas flexibles que se adaptan automáticamente según el tamaño de la pantalla.
+                    </p>
+
+                    <p>
+                        Bootstrap utiliza filas (row) y columnas (col) para construir diseños responsivos.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container mt-4" id="flex">
+
+            <div class="d-flex flex-column flex-md-row gap-4">
+
+                <div class="flex-fill">
+
+                    <h3>Flex</h3>
+
+                    <img src="assets/img/Flexbox.jpg" class="img-fluid" alt="Flex">
+
+                    <p>
+                        Flexbox que permiten crear interfaces flexibles y adaptables de forma sencilla sin necesidad de
+                        usar float.
+                    </p>
+
+                    <ul>
+                        <li>Alinear elementos horizontal y verticalmente.</li>
+                        <li>Distribuir espacio automáticamente.</li>
+                        <li>Adaptar contenido según el tamaño disponible.</li>
+                    </ul>
+
+                </div>
+
+                <div class="flex-fill">
+
+                    <h3>Control Navbar</h3>
+
+                    <img src="assets/img/Bootstrap.jpg" class="img-fluid" alt="Navbar">
+
+                    <p>
+                        El Navbar es una barra de navegación adaptable que facilita la navegación dentro del sitio web.
+                        y la misma se adapta según el tamaño por lo que es ideal para celulares.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container mt-5" id="carousel-control">
+
+            <h3 class="text-center mb-4">Control Carousel</h3>
+
+            <p>
+                El Carousel es un componente dinámico que permite mostrar contenido en forma de presentación deslizante
+                tales como Galerías de imágenes.
+            </p>
+
+            <div id="bootstrapCarousel" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="assets/img/Bootstrap.jpg" class="d-block w-100" alt="Bootstrap">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/img/Containers.jpg" class="d-block w-100" alt="Containers">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/img/Grid.jpg" class="d-block w-100" alt="Grid">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/img/Flexbox.jpg" class="d-block w-100" alt="Flexbox">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/img/Carousel.jpg" class="d-block w-100" alt="Carousel">
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#bootstrapCarousel"
+                    data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+
+                </button>
+
+                <button class="carousel-control-next" type="button" data-bs-target="#bootstrapCarousel"
+                    data-bs-slide="next">
+
+                    <span class="carousel-control-next-icon"></span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- FIN BOOTSTRAP 5 -->
 
     <!-- INICIO FOOTER -->
     <footer id="footer">
@@ -165,7 +426,8 @@
 
             <li class="card-item">
                 <h3>Flexbox</h3>
-                <p>Flexbox permite organizar elementos de manera flexible y adaptable dependiendo del tamaño de la pantalla.</p>
+                <p>Flexbox permite organizar elementos de manera flexible y adaptable dependiendo del tamaño de la
+                    pantalla.</p>
             </li>
 
             <li class="card-item">
