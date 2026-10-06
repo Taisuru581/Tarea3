@@ -28,7 +28,7 @@ p {
 #wdm-container {
     max-width: 1100px;
     margin: 20px auto;
-    background-color: #d0d0d0;
+    background-color: #e2e8f0;
     border: 2px solid black;
     padding: 20px;
     overflow: hidden;
@@ -37,7 +37,7 @@ p {
 /* HEADER */
 
 #wdm-header {
-    background-color: #dcead2;
+    background-color: #dbeafe;
     border: 2px solid black;
     overflow: hidden;
 }
@@ -70,7 +70,7 @@ p {
     width: 50%;
     height: 300px;
     float: left;
-    background-color: #a9d18e;
+    background-color: #93c5fd;
     border-top: 2px solid black;
     padding: 10px;
     overflow: auto;
@@ -84,7 +84,7 @@ p {
 
 #wdm-header .wdm-nav {
     clear: both;
-    background-color: #548235;
+    background-color: #1e40af;
     border-top: 2px solid black;
 }
 
@@ -98,7 +98,7 @@ p {
 }
 
 #wdm-header .wdm-nav .wdm-list .wdm-item a {
-    color: yellow;
+    color: #f0f9ff;
     text-decoration: none;
     font-weight: bold;
 }
@@ -107,7 +107,7 @@ p {
 
 #wdm-content-area {
     clear: both;
-    background-color: #d9e2f3;
+    background-color: #ede9fe;
     border-left: 2px solid black;
     border-right: 2px solid black;
     overflow: hidden;
@@ -127,7 +127,7 @@ p {
 
 #wdm-content-area #viewport code {
     display: block;
-    background-color: white;
+    background-color: #f8fafc;
     border: 1px solid black;
     padding: 8px;
     margin-bottom: 10px;
@@ -146,7 +146,7 @@ p {
 }
 
 #wdm-content-area #mediaqueries .wdm-article {
-    background-color: #8faadc;
+    background-color: #c4b5fd;
     border: 2px solid black;
     padding: 15px;
     margin-bottom: 20px;
@@ -160,7 +160,7 @@ p {
 
 #galeria {
     clear: both;
-    background-color: #fce4d6;
+    background-color: #ccfbf1;
     border: 2px solid black;
     padding: 20px;
     overflow: hidden;
@@ -178,7 +178,7 @@ p {
     width: calc(33.333% - 20px);
     float: left;
     margin-right: 20px;
-    background-color: #f4b183;
+    background-color: #5eead4;
     border: 2px solid black;
     padding: 10px;
 }
@@ -200,8 +200,8 @@ p {
 #footer {
     max-width: 1100px;
     margin: 0 auto;
-    background-color: #808080;
-    color: white;
+    background-color: #334155;
+    color: #f8fafc;
     border: 2px solid black;
     padding: 20px;
     overflow: hidden;
@@ -219,7 +219,7 @@ p {
     width: calc(25% - 20px);
     float: left;
     margin-right: 20px;
-    background-color: #595959;
+    background-color: #1e293b;
     border: 2px solid black;
     padding: 10px;
 }
@@ -229,15 +229,14 @@ p {
 }
 
 #footer .card-list .card-item p {
-    color: white;
+    color: #f8fafc;
 }
-
 
 /* BOOTSTRAP 5 */
 
 #bootstrap5 {
     clear: both;
-    background-color: #e2f0d9;
+    background-color: #fef3c7;
     border: 2px solid black;
     padding: 20px;
     margin-top: 20px;
@@ -245,7 +244,7 @@ p {
 }
 
 #bootstrap5 .bootstrap-content {
-    background-color: white;
+    background-color: #f8fafc;
     border: 2px solid black;
     padding: 15px;
     margin-bottom: 20px;
@@ -257,7 +256,7 @@ p {
 
 #bootstrap5 .row div,
 #bootstrap5 .d-flex div {
-    background-color: #f9f9f9;
+    background-color: #ffedd5;
     border: 2px solid black;
     padding: 15px;
 }
@@ -270,9 +269,9 @@ p {
 }
 
 #bootstrap5 #bootstrapCarousel img {
-    height: 350px;
+    height: 340px;
     object-fit: contain;
-    background-color: white;
+    background-color: #f8fafc;
 }
 
 /* MAQUETADO MÓVIL */
@@ -329,5 +328,6 @@ p {
         float: none;
         margin-right: 0;
         margin-bottom: 15px;
+
     }
 }
